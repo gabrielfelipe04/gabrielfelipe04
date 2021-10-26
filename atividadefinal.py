@@ -74,8 +74,8 @@ print(listaTrial)
 
 for y in range(len(listaTrial)):
     print(listaTrial[y])
-    np.mean(listaTrial[y])
-    np.std(listaTrial[y])
+    print(f'Média {y*1000}: {np.mean(listaTrial[y])}')
+    np.std(f'Desvio Padrao {y*1000}: {np.std(listaTrial[y])}')
 
 # Cada linha desse array é um trial.
 
