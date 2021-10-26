@@ -63,16 +63,19 @@ for i in range(len(array)):
     print(array[i][1199])
 print('-' * 30)
 
+
+listaTrial = []
+
 for x in range(1000, 11000, 1000):
-    print(f'{x}: {array[x-500:x+501]}')
-    lista.append(array[x-500:x+501])
+    print(f'{x}: {listaTrial[x-500:x+501]}')
+    lista.append(listaTrial[x-500:x+501])
 
-print(lista)
+print(listaTrial)
 
-for y in range(len(lista)):
-    print(lista[y])
-    np.mean(lista[y])
-    np.std(lista[i])
+for y in range(len(listaTrial)):
+    print(listaTrial[y])
+    np.mean(listaTrial[y])
+    np.std(listaTrial[y])
 
 # Cada linha desse array é um trial.
 
