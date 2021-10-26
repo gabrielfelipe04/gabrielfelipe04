@@ -68,7 +68,7 @@ listaTrial = []
 
 for x in range(1000, 11000, 1000):
     print(f'{x}: {array[x-500:x+501]}')
-    lista.append(array[x-500:x+501])
+    listaTrial.append(array[x-500:x+501])
 
 print(listaTrial)
 
